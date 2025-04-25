@@ -1,0 +1,20 @@
+.sobre {
+
+    &__content {
+        display: flex;
+
+        .subsection {
+            &__logos {
+                width: 200px;
+                padding: 0 16px;
+            }
+        }
+
+        .banner {
+            padding: 36px 16px;
+            width: 600px;
+        }
+    }
+
+
+}

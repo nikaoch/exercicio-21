@@ -1,0 +1,16 @@
+@use 'variaveis';
+
+.elenco {
+    .container {
+        .elenco__names {
+            &__list {
+                &__name {
+                    color: variaveis.$corTexto;
+                        font-family: sans-serif;
+                        font-size: 18px;
+                        padding: 16px;
+                }
+            }
+        }
+    }
+}
